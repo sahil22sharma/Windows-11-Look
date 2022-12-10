@@ -17,7 +17,7 @@ body{
     z-index: 110;
 }
 .taskbar img{
-    height: 55px;
+    height: 45px;
 }
 .taskbar img:active{
     transform: translateY(1px);
@@ -37,7 +37,7 @@ body{
     z-index: 2;
 }
 .startmenu img{
-    height: 710px;
+    height: 590px;
     border-radius: 8px;
 }
 .clicked{
@@ -48,6 +48,7 @@ body{
     transition: all 0.3s ease-in;
 }
 .clicked img{
+    height:390px;
     border-radius: 8px;
 }
 .searchclick{
@@ -60,7 +61,7 @@ body{
     transition: all 0.3s ease-in;
 }
 .searchclick img{
-    height: 710px;
+    height: 590px;
     border-radius: 8px;
 }
 .doub{
@@ -73,5 +74,5 @@ body{
     bottom: -660px;
 }
 .doub img{
-    height: 710px;
+    height: 590px;
 }
