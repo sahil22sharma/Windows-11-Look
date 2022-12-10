@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/Project/bg.jpeg);
+    background-size: cover;
+    overflow: hidden;
+}
+.taskbar{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #151f62;
+    z-index: 110;
+}
+.taskbar img{
+    height: 55px;
+}
+.taskbar img:active{
+    transform: translateY(1px);
+}
+.right{
+    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+}
+.startmenu{
+    position: absolute; 
+    text-align: center;
+    width: 100%;
+    bottom: -660px;
+    /* bottom: 55px; */
+    transition: all 0.3s ease-in;
+    z-index: 2;
+}
+.startmenu img{
+    height: 710px;
+    border-radius: 8px;
+}
+.clicked{
+    position: absolute;
+    right: 5px;
+    /* bottom: 55px; */
+    bottom: -660px;
+    transition: all 0.3s ease-in;
+}
+.clicked img{
+    border-radius: 8px;
+}
+.searchclick{
+    position: absolute; 
+    text-align: center;
+    width: 100%;
+    /* bottom: 55px; */
+    bottom: -660px;
+    z-index: 1;
+    transition: all 0.3s ease-in;
+}
+.searchclick img{
+    height: 710px;
+    border-radius: 8px;
+}
+.doub{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    transition: all 0.3s ease-in;
+    z-index: 3;
+    /* bottom: 55px; */
+    bottom: -660px;
+}
+.doub img{
+    height: 710px;
+}
