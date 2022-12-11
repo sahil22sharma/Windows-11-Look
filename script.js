@@ -7,6 +7,16 @@ let searched=document.getElementsByClassName("searched")[0]
 let doub=document.getElementsByClassName("doub")[0]
 let doubl=document.getElementsByClassName("doubl")[0]
 
+window.onload=function()
+{
+    var mobile=(/iphone|ipad|ipod|android/i.test(navigator.userAgent.toLowerCase()));
+    if (mobile) {
+        alert("Visit this site on a Computer for better view");
+    } else {
+        
+    }
+}
+
 //for Windows Logo
 win.addEventListener("click", ()=>{
     console.log("windows");
