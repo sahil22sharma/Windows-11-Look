@@ -7,6 +7,9 @@ body{
     background-size: cover;
     overflow: hidden;
 }
+.phone{
+    display:none;
+}
 .taskbar{
     position: absolute;
     bottom: 0;
@@ -75,4 +78,19 @@ body{
 }
 .doub img{
     height: 590px;
+}
+@media only screen and (max-width:1365px){
+    .full{
+        display: none;
+    }
+    .phone{
+        display:contents;
+        position: absolute;
+        bottom: 50%;
+        font-size: 80px;
+        
+    }
+    body{
+        background-image: none;
+    }
 }
